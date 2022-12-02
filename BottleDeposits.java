@@ -9,7 +9,7 @@ public class BottleDeposits {
 		System.out.println("enter containers holding more than 1 liter ");
 		float y = s.nextFloat();
 		double refund = x*0.10 + y*0.25;
-		System.out.println("the refund is $" + refund);
+		System.out.printf("the refund is $"+"%.2f" + "\n", refund);
 		
 
 	}
