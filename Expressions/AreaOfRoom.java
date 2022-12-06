@@ -9,7 +9,7 @@ public class AreaOfRoom {
 		float w = s.nextFloat();
 		float l = s.nextFloat();
 		float area = w*l;
-		System.out.println("the area of room is " +area + " meter square");
+		System.out.println("the area of room is " +area );
 		
 		
 		

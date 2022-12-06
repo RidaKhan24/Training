@@ -11,7 +11,7 @@ public class AreaOfTriangle {
 		float s3 = sc.nextFloat();
 		float s= (s1+s2+s3)/2;
 		double area = Math.sqrt(s*(s-s1)*(s-s2)*(s-s3));
-		System.out.println("the area of triangle is " + area);
+		System.out.println("the area of triangle is " + area + " meter square");
 		
 	
 		
