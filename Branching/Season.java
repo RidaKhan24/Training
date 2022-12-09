@@ -8,16 +8,16 @@ public class Season {
 		String month = s.next();
 		System.out.println("enter date");
 		int date = s.nextInt();
-		if((month.equals("march") && date >=20) || (month.equals("april") && date <= 30) || (month.equals("may") && date<=31)|| (month.equals("june") && date <=20)) {
+		if((month.equals("march") && date >=20) || month.equals("april") || month.equals("may")|| (month.equals("june") && date <=20)) {
 			System.out.println("spring");
 		}
-		else if((month.equals("june") && date >= 21) || (month.equals("july") && date <=31) || (month.equals("august") && date <=31) || (month.equals("september") && date <= 21) ) {
+		else if((month.equals("june") && date >= 21) || month.equals("july") || month.equals("august") || (month.equals("september") && date <= 21) ) {
 			System.out.println("summer");
 		}
-		else if((month.equals("september") && date >= 22) || (month.equals("october") && date <=31) || (month.equals("november") && date <=30) || (month.equals("december") && date <= 20) ) {
+		else if((month.equals("september") && date >= 22) || month.equals("october") || month.equals("november") || (month.equals("december") && date <= 20) ) {
 			System.out.println("fall");
 		}
-		else if((month.equals("december") && date >= 21) || (month.equals("january") && date <=31) || (month.equals("february") && date<=28) || (month.equals("march") && date <= 19) ) {
+		else if((month.equals("december") && date >= 21) || month.equals("january") || month.equals("february") || (month.equals("march") && date <= 19) ) {
 			System.out.println("winter");
 		}
 		else {
