@@ -6,11 +6,11 @@ public class LeftTriPattern {
 		System.out.println("enter n");
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
-		for(int i=0;i<n;i++) {
-			for(int j=1;j<2*(n-i);j++) {
+		for(int i=1;i<=n;i++) {
+			for(int j=1;j<=2*(n-i);j++) {
 				System.out.print(" ");
 			}
-			for(int k=0;k<=i;k++) {
+			for(int k=1;k<=i;k++) {
 				System.out.print("* ");
 			}
 			System.out.println();

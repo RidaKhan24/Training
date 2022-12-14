@@ -7,8 +7,8 @@ public class DownwardTri {
 		Scanner s = new Scanner(System.in);
 		int n =s.nextInt();
 		for(int i=n;i>0;i--) {
-			for(int j=n-1;j>=n-i;j-- ) {
-				System.out.print("*");
+			for(int j=n;j>n-i;j-- ) {
+				System.out.print("* ");
 						
 			}
 			System.out.println();
